@@ -2,8 +2,8 @@
 window.onscroll = function () {
     const docScrollTop = document.documentElement.scrollTop;
 
-    if (window.innerWidth > 991) {
-        if (docScrollTop > 100) {
+    if (window.innerWidth > 900) {
+        if (docScrollTop > 70) {
             document.querySelector("header").classList.add("fixed")
         } else {
             document.querySelector("header").classList.remove ("fixed")
